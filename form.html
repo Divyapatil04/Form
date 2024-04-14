@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>How to create form</title>
+  </head>
+  <body>
+    <form style="padding:500,100px;">
+      <fieldset style="background-color: rgb(218, 207, 194);">
+        <!--used for border -->
+        <legend>Fill the form</legend>
+        <h4>Enter your details</h4>
+        <hr />
+
+        <label for="">Username : </label>
+        <input type="username" placeholder="Enter your username" />
+        <br />
+        <br />
+        <label for="">Password : </label>
+        <input type="password" placeholder="Enter your password" />
+        <br /><br />
+        <label for="">Email : </label>
+        <input type="email" placeholder="Enter your email" />
+        <br /><br />
+
+        <label for="">Add File: </label>
+        <input type="file" />
+        <br /><br />
+
+        <label for="">Volume : </label>
+        <input type="range" />
+        <br /><br />
+
+        <label for="">Incentives : </label>
+        <input type="number" />
+        <br />
+        <br />
+
+        <label for="">Select Image :</label>
+        <input type="image" />
+        <br /><br />
+        <hr />
+
+        <label for="">Gender : </label>
+        <br />
+        <input type="radio" name="Gender" id="1" />
+        <label for="1">Male</label>
+        <br />
+        <input type="radio" name="Gender" id="2" />
+        <label for="2">Women</label>
+        <br />
+        <input type="radio" name="Gender" id="3" />
+        <label for="3">Others</label>
+
+        <hr />
+        <br />
+        <label for="">Technical Skills : </label>
+        <br />
+        <label for="">HTML</label>
+        <input type="checkbox" />
+        <br />
+        <label for="">CSS</label>
+        <input type="checkbox" />
+        <br />
+        <label for="">JavaScript</label>
+        <input type="checkbox" />
+        <br /><br />
+        <hr />
+
+        <label for="">Designation</label>
+        <select name="" id="">
+          <option value="">Front End Developer</option>
+          <option value="">Back End Developer</option>
+          <option value="">Automation Engineer</option>
+          <option value="">Test Engineer</option>
+          <option value="">Database Engineer</option>
+        </select>
+
+        <hr />
+        <label for="">About yourelf : </label>
+        <br />
+        <textarea name="" id="" cols="100" rows="3" maxlength="10"></textarea>
+        <br />
+
+        <button>Login</button>
+        or
+        <input type="submit" />
+        <input type="reset" />
+      </fieldset>
+    </form>
+  </body>
+</html>
